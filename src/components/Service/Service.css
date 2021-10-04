@@ -5,6 +5,9 @@
 .card-body p{
     font-size: 12px;
 }
+.card {
+    height: 410px;
+}
 .card-img-top {
-    max-height: 200px;
+    height: 150px;
 }

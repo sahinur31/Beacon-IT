@@ -1,0 +1,25 @@
+.carousel-item img{
+    max-height: 500px;
+}
+.single-slide-item{
+    -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   position:relative;
+}
+.carousel-caption{
+    bottom: 40%;
+}
+.carousel-caption h3{
+    font-size: 2.75rem;
+}
+.single-slide-item::before {
+ background: #000 none repeat scroll 0 0;
+ content: "";
+ height: 100%;
+ left: 0;
+ opacity: 0.6;
+ position: absolute;
+ top: 0;
+ width: 100%;
+}
