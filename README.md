@@ -1,16 +1,40 @@
-# Getting Started with ##BeaconIT Limited.
+# Getting Started with BeaconIT Limited.
 
-This project was careated in React /jS React Bootstrap, React Font Awesome, React Router Dom
+This project was careated in:
+<li>React JS </li>
+<li> React Font Awesome</li>
+<li>React Router Dom</li>
+<li>React Bootstrap</li>
+<li>Fully Responsive</li>
+
+
+ 
 
 ## Live Site Link
 
-This project deploy in netlifly website: Live site link: 
+This project deploy in netlifly website: Live site link: (https://beaconit-nur-web.netlify.app/)
 
 ### Project Feature:
-<li>This project have four pages</li>
+This project have four pages
     <ol>
-        <li> Home Page</li>
-        <li> Service Page</li>
-        <li> About Page</li>
-        <li> Contact Page</li>
+        <li> Home Page
+            <ul>
+                <li>Home Page with four active service</li>
+            </ul>
+        </li>
+        <li> Service Page
+             <ul>
+                <li>Service Page with 8 active service</li>
+            </ul>
+        </li>
+        <li> About Page
+            <ul>
+                <li>About Page with their about us</li>
+            </ul>
+        </li>
+        <li> Contact Page
+            <ul>
+                <li>Contact Page for contact with  them</li>
+            </ul>
+        </li>
     </ol>
