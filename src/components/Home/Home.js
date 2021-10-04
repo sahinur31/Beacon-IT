@@ -1,12 +1,10 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
-import NavBar from '../NavBar/NavBar';
+import SingleService from '../SingleService/SingleService';
 
 const Home = () => {
     return (
         <div>
-            <NavBar></NavBar>
-            <Footer></Footer>
+            <SingleService></SingleService>
         </div>
     );
 };

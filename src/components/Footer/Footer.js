@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-                <h1>BeaconIT</h1>
+                <h4>Beacon<span className="theme-color">IT</span></h4>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon">
                     <FontAwesomeIcon icon={faInstagramSquare} />
@@ -48,7 +48,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-4">
               <div className="footer-menu-container">
                 <ul>
                   <li className="footer-menu">Home</li>
@@ -59,23 +59,23 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-3">
               <div className="right-footer-container">
-                <h3>Sign up for the newsletter</h3>
+                <h6>Sign up for the newsletter</h6>
                 <input
                   className="footer-input"
                   type="text"
                   placeholder="Enter Email"
                 />
-                <div className="phone d-flex align-items-center justify-content-center mt-4">
+                <div className="phone d-flex mt-4">
                   <div className="foter-phone-icon">
                     <FontAwesomeIcon icon={faPhoneVolume} />
                   </div>
                   <div>
-                    <h5>+1 8 800 555 35 35</h5>
+                    <p>+1 8 800 555 35 35</p>
                   </div>
                 </div>
-                <div className="map d-flex align-items-center justify-content-center">
+                <div className="map d-flex">
                   <div className="foter-phone-icon">
                     <FontAwesomeIcon icon={faMapMarkedAlt} />
                   </div>

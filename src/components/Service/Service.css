@@ -1,0 +1,10 @@
+.card-body .sicon {
+    color: #20AD96;
+    margin-right: 5px;
+} 
+.card-body p{
+    font-size: 12px;
+}
+.card-img-top {
+    max-height: 200px;
+}

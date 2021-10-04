@@ -1,11 +1,21 @@
 import React from 'react';
-import Home from '../Home/Home';
+import { Breadcrumb } from 'react-bootstrap';
 import './Contact.css';
 
 const Contact = () => {
     return (
-        <div>
-            
+        <div className="container">
+            <div className="row text-center py-5">
+                        <div className="col section-title text-center">
+                            <h2>Contact</h2>
+                            <Breadcrumb>
+                                <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+                                <Breadcrumb.Item href="" active>
+                                    Contact
+                                </Breadcrumb.Item>
+                            </Breadcrumb>
+                        </div>
+                    </div>
             <section className="contact-area py-5">
                 <div className="container">
                     <div className="section-title text-center text-uppercase py-3 mb-3">
