@@ -1,14 +1,12 @@
-# Getting Started with BeaconIT Limited.
+# Getting Started with "BeaconIT Limited" project.
 
-This project was careated in:
+This project was created in:
 <li>React JS </li>
 <li> React Font Awesome</li>
 <li>React Router Dom</li>
 <li>React Bootstrap</li>
 <li>Fully Responsive</li>
 
-
- 
 
 ## Live Site Link
 
