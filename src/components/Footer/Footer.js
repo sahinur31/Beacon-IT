@@ -42,10 +42,6 @@ const Footer = () => {
                     diagnose.
                   </small>
                 </p>
-
-                <p className="mt-5">
-                  <small>BeaconIT &copy; All rights reserved.</small>
-                </p>
               </div>
             </div>
             <div className="col-md-4">
@@ -86,6 +82,13 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <p className="mt-5 text-center">
+                  <small>BeaconIT &copy; All rights reserved.</small>
+              </p>
             </div>
           </div>
         </div>

@@ -7,7 +7,6 @@ const NotFound = () => {
     const fontElement = <FontAwesomeIcon icon={faFrown}></FontAwesomeIcon>
     return (
         <>
-            
             <div className="my-5 text-bold text-center">
                 <h1 className="display-1 theme-color">{fontElement}</h1>
                 <h2 className="display-1">404</h2>

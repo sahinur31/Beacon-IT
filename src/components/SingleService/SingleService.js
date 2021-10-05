@@ -15,15 +15,13 @@ const SingleService = () => {
         <div>
             <div className="container">
                 <div className="row text-center py-5">
-                        <div className="col section-title text-center">
-                            <h2>Services</h2>
-                        </div>
+                    <div className="col text-center">
+                        <h2 className="theme-color">Services</h2>
+                    </div>
                 </div>
                 <div className="row">
                     {
                         services.slice(0,size).map((pd)=>(
-
-                       
                     <div className="col-md-3">
                         <div className="service mb-4">
                             <div className="card">

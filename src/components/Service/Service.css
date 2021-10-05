@@ -1,11 +1,11 @@
 .card-body .sicon {
-    color: #20AD96;
+    color: #ec5251;
     margin-right: 5px;
 } 
 .card-body p{
     font-size: 12px;
 }
-.card {
+.service .card {
     height: 410px;
 }
 .card-img-top {

@@ -5,18 +5,17 @@ import './NavBar.css';
 
 const NavBar = () => {
     const activeStyle = {
-        fontWeight: "bold",
-        color: "#20AD96"
+        color: "#ec5251"
     }
     const style = {
-        color: "white",
-        textDecoration: "none"
+        color: "black",
+        textDecoration: "none",
     }
     return (
         <div>
-            <Navbar bg="dark" expand="lg" variant="dark">
+            <Navbar bg="" expand="lg" variant="">
                 <Container>
-                    <Navbar.Brand href="/home">Beacon<span className="theme-color">IT</span></Navbar.Brand>
+                    <Navbar.Brand className="logo" href="/home">Beacon<span className="theme-color">IT</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">

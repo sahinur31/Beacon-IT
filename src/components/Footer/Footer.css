@@ -5,7 +5,7 @@
   font-size: 30px;
 }
 .icon:hover {
-  color: #20AD96;
+  color: #ec5251;
 }
 .footer-menu {
   list-style: none;
@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 .footer-menu:hover {
-  color: #20AD96;
+  color: #ec5251;
 }
 .footer-input {
   padding: 8px;
@@ -29,5 +29,5 @@
 }
 .foter-phone-icon {
   font-size: 20px;
-  color: #20AD96;
+  color: #ec5251;
 }

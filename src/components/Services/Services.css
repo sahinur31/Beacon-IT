@@ -1,6 +1,14 @@
 .section-title {
-
+    background-color: #07294d;
+    color: #fff;
 }
 .breadcrumb {
     justify-content: center;
+}
+.breadcrumb a{
+    color: #fff;
+    text-decoration: none;
+}
+.breadcrumb-item.active{
+    color: #ec5251;
 }

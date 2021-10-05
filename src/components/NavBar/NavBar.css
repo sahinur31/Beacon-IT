@@ -1,4 +1,22 @@
-.nav-links:hover {
-    background-color:#20AD96; /*will change background-color of element on hover */
-    color: black !important; /*will change color of text within the element on hover */
-    }
+.nav-link:focus, .nav-link:hover {
+    border: 1px solid #ec5251;
+    font-weight: normal;
+}
+.logo {
+        border: 3px solid #494949;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 5px 15px;
+        color: #000;
+}
+.nav-link{
+    
+    border: 1px solid transparent;
+}
+.navbar-dark .navbar-brand{
+    color: black;
+}
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover{
+    color: #ec5251;
+}
